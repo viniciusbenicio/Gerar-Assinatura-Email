@@ -1,8 +1,17 @@
-import Gerar from './components/Gerar'
+import {BrowserRouter, Link} from 'react-router-dom';
+import AppRoutes from './Routes';
 
 export default function App() {
   return (
-      <Gerar/>
+    <div className="wrapper">
+        <BrowserRouter>
+        <nav>
+            <Link to="/">Meu Feed</Link>
+            <Link to="/most-viewed">Mais vistos</Link>
+        </nav>
+      <AppRoutes />
+      </BrowserRouter>
+    </div>
   );
 }
 
