@@ -6,8 +6,8 @@ export default function App() {
     <div className="wrapper">
         <BrowserRouter>
         <nav>
-            <Link to="/">Meu Feed</Link>
-            <Link to="/most-viewed">Mais vistos</Link>
+            <Link to="/">Home</Link>
+            <Link to="/your-signature">Suas assinaturas</Link>
         </nav>
       <AppRoutes />
       </BrowserRouter>

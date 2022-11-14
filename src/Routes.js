@@ -1,13 +1,13 @@
 import {Routes, Route} from 'react-router-dom';
 
 import Home from './pages/Home';
-import MostViewed from './pages/MostViewed';
+import YourSignature from './pages/YourSignature';
 
 export default function AppRoutes(){
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/most-viewed" element={<MostViewed />} />
+            <Route path="/your-signature" element={<YourSignature />} />
         </Routes>
     );
 }

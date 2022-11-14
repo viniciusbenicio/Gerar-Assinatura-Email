@@ -5,7 +5,7 @@ export default function Assinatura(props){
     if(props.assinaturas.length === 0){
         return (
             <div>
-                <img src={null} alt="AAAAAAA SEM NADA"/>
+                <img src={null} alt=""/>
                 <h1>Não encontramos nada</h1>
                 <h2>Parece que você não criou nenhuma Assinatura...</h2>
             </div>
@@ -22,15 +22,15 @@ export default function Assinatura(props){
             <section className="">
             {props.assinaturas.map((assinaturas) => (
                 <article key={assinaturas.id}>
-                     <p>{assinaturas.content}</p>
+                     <p>{assinaturas.userName}</p>
                      <footer>
-                     <div className="user-details">
-                     <img src={null} alt="User" />
-                        <strong>{assinaturas.userName}</strong>
+                     <div className="">
+                     <img src={null} alt="" />
+                     <p>{assinaturas.jobRole}</p>
+                        <strong>{assinaturas.email}</strong>
                         </div>
-                        <div className="time">
-                        <img src={null} alt="Clock" />
-                        <span>{assinaturas.publishedAt.toLocaleDateString('pt-br')}</span>
+                        <div className="">
+                        <img src={null} alt="" />
                     </div>
                      </footer>
                 </article>

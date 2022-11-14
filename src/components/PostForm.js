@@ -1,35 +1,48 @@
 import { useState } from 'react';
 
 export default function PostForm (props){
-    const [history, setHistory] = useState('');
     const [userName, setUserName] = useState('');
+    const [jobRole,setjobRole] = useState('');
+   // const [contactTel,setcontactTel] = useState('');
+   // const [contactCel,setcontactCel] = useState('');
+    const [email, setEmail] = useState('');
+   // const [conf,setConf] = useState('');
+   // const [website,setWebSite] = useState('');
 
 
     function handleSubmit(event){
         event.preventDefault();
-        props.onSubmit({history, userName});
+        props.onSubmit({userName, jobRole, email});
 
-        setHistory('');
+        // setUserName('');
+        // setEmail('');
+        
     }
 
     return (
         <form onSubmit={handleSubmit} >
-            <input
-            value={history}
-            placeholder="Criando uma nova Assinatura..."
-            onChange={(event) => setHistory(event.target.value)}
-            />
+            
             <div>
-                <img src={null} alt="User" />
+                <img src={null} alt="" />
                 <input 
                 value={userName}
-                placeholder="Digite seu nome..."
+                placeholder="Digite seu Nome..."
                 onChange={(event) => setUserName(event.target.value)}
+                />
+                <input
+                value={jobRole}
+                placeholder="Digite seu Cargo..."
+                onChange={(event) => setjobRole(event.target.value)}
+                />
+                <input
+                value={email}
+                placeholder="Digite seu E-mail..."
+                onChange={(event) => setEmail(event.target.value)}
                 />
 
                 <button type="submit">
-                    <img src={null} alt="Paper Planne" />
-                    Publicar
+                    <img src={null} alt="" />
+                    Gerar
                 </button>
             </div>
             
