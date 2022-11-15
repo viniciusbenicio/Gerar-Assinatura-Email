@@ -7,7 +7,7 @@ export default function Home(){
     const [assinaturas, setAssinaturas] = useState([]);
 
 
-function handleSubmit({userName, jobRole, email}){
+function handleSubmit({userName, jobRole, email, contactTel, contactCel, conf, website}){
     setAssinaturas([
         ...assinaturas,
         {
@@ -15,6 +15,10 @@ function handleSubmit({userName, jobRole, email}){
             userName,
             jobRole,
             email,
+            contactTel,
+            contactCel,
+            conf,
+            website,
         }
     ]);
 }
