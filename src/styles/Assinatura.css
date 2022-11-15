@@ -1,5 +1,82 @@
+:root {
+    --main-color: #000;
+    --main-font: 'Helvetica';
+    --main-size-titulo: 16px;
+    --main-size-subTitulo: 13px;
+    --main-weight: font-weight: normal;
+}
+
 .texto{
     position: relative;
+}
+
+.texto h1{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-titulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 5px;
+    
+}
+.texto h2{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 30px;
+    margin-top: 8px;
+}
+.texto h3{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 45px;
+    margin-bottom: 5px;
+}
+.texto h4{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 56px;
+}
+.texto h5{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 68px;
+    margin-top: 28px;
+}
+.texto h6{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 78px;
+}
+.texto h7{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 130px;
+    margin-top: -8px;
 }
 
 img{
