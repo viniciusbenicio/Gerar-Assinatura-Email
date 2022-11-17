@@ -1,3 +1,5 @@
+import { Button } from 'reactstrap';
+
 import { useState } from 'react';
 
 export default function PostForm (props){
@@ -64,10 +66,12 @@ export default function PostForm (props){
                 placeholder="Digite seu Site..."
                 onChange={(event) => setWebSite(event.target.value)}
                 />
-                <button type="submit">
-                    <img src={null} alt="" />
+                <Button 
+                  color="dark"
+                  type="submit"
+                  outline>
                     Gerar
-                </button>
+                </Button>
             </div>
             
         </form>

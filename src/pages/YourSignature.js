@@ -9,7 +9,6 @@ export default function YourSignature(){
             email: 'vinicius.benicio97@gmail.com',
             contactTel: '+55 11 4002-8922',
             contactCel: '+55 11 95235-55735',
-            conf: 'skype: viniciusbenicio',
             website: 'www.vinicius.com.br',
         },
     ];
