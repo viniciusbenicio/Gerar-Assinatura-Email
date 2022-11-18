@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+Form{
+    max-width: 100%;
+    background-color: #F2F2F2;
+   
+} 
+
+Button{
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+Label{
+    margin-left: 300px;
+    margin-top: 3px;
+}
+
+input{
+    margin-left: 300px;
+}

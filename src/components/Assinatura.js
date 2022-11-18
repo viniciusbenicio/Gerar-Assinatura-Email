@@ -3,10 +3,11 @@ import TemplateEmail from '../images/TemplateEmail.png';
 import '../styles/Assinatura.css';
 
 export default function Assinatura(props){
+
     if(props.assinaturas.length === 0){
         return (
             <div>
-                <img src={null} alt=""/>
+               
                 <h1>Não encontramos nada</h1>
                 <h2>Parece que você não criou sua Assinatura...</h2>
             </div>

@@ -1,20 +1,21 @@
-import { Button } from 'reactstrap';
-
+import { Input, Button, Label, Form, Row, Col } from 'reactstrap';
 import { useState } from 'react';
 
-export default function PostForm (props){
+import '../styles/PostForm.css';
+
+export default function PostForm(props) {
     const [userName, setUserName] = useState('');
-    const [jobRole,setjobRole] = useState('');
-    const [contactTel,setcontactTel] = useState('');
-    const [contactCel,setcontactCel] = useState('');
+    const [jobRole, setjobRole] = useState('');
+    const [contactTel, setcontactTel] = useState('');
+    const [contactCel, setcontactCel] = useState('');
     const [email, setEmail] = useState('');
-    const [conf,setConf] = useState('');
-    const [website,setWebSite] = useState('');
+    const [conf, setConf] = useState('');
+    const [website, setWebSite] = useState('');
 
 
-    function handleSubmit(event){
+    function handleSubmit(event) {
         event.preventDefault();
-        props.onSubmit({userName, jobRole, email, contactTel, contactCel, conf, website});
+        props.onSubmit({ userName, jobRole, email, contactTel, contactCel, conf, website });
 
         // setUserName('');
         // setjobRole('');
@@ -23,57 +24,94 @@ export default function PostForm (props){
         // setEmail('');
         // setConf('');
         // setWebSite('');
-        
     }
 
     return (
-        <form onSubmit={handleSubmit} >
-            
+        <Form onSubmit={handleSubmit} >
             <div>
-                <img src={null} alt="" />
-                <input 
-                value={userName}
-                placeholder="Digite seu Nome..."
-                onChange={(event) => setUserName(event.target.value)}
-                />
-                <input
-                value={jobRole}
-                placeholder="Digite seu Cargo..."
-                onChange={(event) => setjobRole(event.target.value)}
-                />
-                <input
-                value={email}
-                placeholder="Digite seu E-mail..."
-                onChange={(event) => setEmail(event.target.value)}
-                />
-                <input
-                value={contactTel}
-                placeholder="Digite seu Telefone..."
-                onChange={(event) => setcontactTel(event.target.value)}
-                />
-                <input
-                value={contactCel}
-                placeholder="Digite seu Celular..."
-                onChange={(event) => setcontactCel(event.target.value)}
-                />
-                <input
-                value={conf}
-                placeholder="Digite seu Skype ou outro aplicativo de Conferência..."
-                onChange={(event) => setConf(event.target.value)}
-                />
-                <input
-                value={website}
-                placeholder="Digite seu Site..."
-                onChange={(event) => setWebSite(event.target.value)}
-                />
-                <Button 
-                  color="dark"
-                  type="submit"
-                  outline>
-                    Gerar
-                </Button>
+                <Row>
+                    <Col md={4}>
+                        <Label>
+                            Nome :
+                        </Label>
+                        <Input
+                            value={userName}
+                            placeholder="Digite seu Nome..."
+                            onChange={(event) => setUserName(event.target.value)}
+                        />
+                    </Col>
+                    <Col md={4}>
+                        <Label>
+                            Cargo :
+                        </Label>
+                        <Input
+                            value={jobRole}
+                            placeholder="Digite seu Cargo..."
+                            onChange={(event) => setjobRole(event.target.value)}
+                        />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={4}>
+                        <Label>
+                            E-mail :
+                        </Label>
+                        <Input
+                            type="email"
+                            value={email}
+                            placeholder="Digite seu E-mail..."
+                            onChange={(event) => setEmail(event.target.value)}
+                        />
+                    </Col>
+                    <Col md={4}>
+                        <Label>
+                            Skype :
+                        </Label>
+
+                        <Input
+                            value={conf}
+                            placeholder="Digite seu Skype ou outro aplicativo de Conferência..."
+                            onChange={(event) => setConf(event.target.value)}
+                        />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={4}>
+                        <Label>
+                            Telefone :
+                        </Label>
+                        <Input
+                            value={contactTel}
+                            placeholder="Digite seu Telefone..."
+                            onChange={(event) => setcontactTel(event.target.value)}
+                        />
+                    </Col>
+                    <Col md={4}>
+                        <Label>
+                            Celular :
+                        </Label>
+                        <Input
+                            value={contactCel}
+                            placeholder="Digite seu Celular..."
+                            onChange={(event) => setcontactCel(event.target.value)}
+                        />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={4}>
+                        <Label>
+                            Site :
+                        </Label>
+                        <Input
+                            type="url"
+                            value={website}
+                            placeholder="Digite seu Site..."
+                            onChange={(event) => setWebSite(event.target.value)}
+                        />
+                    </Col>
+                </Row>
+                <Button color="dark" type="submit" outline>Gerar</Button>
             </div>
-            
-        </form>
+        </Form>
     );
 }
