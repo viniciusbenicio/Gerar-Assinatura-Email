@@ -17,7 +17,7 @@ function ModalNews(props) {
   return (
     <div>
       <Button color="danger" onClick={toggle}>
-       Em Breve
+       Novidades
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle} close={closeBtn}>
@@ -29,7 +29,7 @@ function ModalNews(props) {
           <p>Será possível importar um txt ou csv com os campos para gerar diversas assinatura de uma vez</p>
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={toggle}>
+          <Button color="danger" onClick={toggle}>
           Fechar
           </Button>{' '}
         </ModalFooter>
