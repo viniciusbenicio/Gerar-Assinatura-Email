@@ -1,9 +1,10 @@
+
 import TemplateEmail from '../images/TemplateEmail.png';
+import logo from '../images/logo.png';
 
 import '../styles/Assinatura.css';
 
 export default function Assinatura(props){
-
     if(props.assinaturas.length === 0){
         return (
             <div>
@@ -20,14 +21,14 @@ export default function Assinatura(props){
                 <h1>{props.title}</h1>
                 <h2>{props.subtitle}</h2>
             </header>
-
-            <section className="">
+            <section>
             {
             props.assinaturas.map((assinaturas) => 
             (                
             <article key={assinaturas.id}>
             <div className="texto">
                 <img src={TemplateEmail} alt="Template do E-mail" />
+                <img className="logoTipo" src={logo} alt="logo" />
                 <h1>{assinaturas.userName}</h1>
                 <h2>{assinaturas.jobRole}</h2>
                 <footer>
