@@ -17,7 +17,7 @@ function ModalNews(props) {
   return (
     <div>
       <Button color="danger" onClick={toggle}>
-       Novidades
+       News
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle} close={closeBtn}>

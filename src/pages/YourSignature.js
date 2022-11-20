@@ -7,6 +7,7 @@ export default function YourSignature(){
             userName: 'Vinícius Benício de Santana',
             jobRole: 'Desevolvedor Full Stack',
             email: 'vinicius.benicio97@gmail.com',
+            conf: 'viniciusbenicio10',
             contactTel: '+55 11 4002-8922',
             contactCel: '+55 11 95235-55735',
             website: 'www.vinicius.com.br',

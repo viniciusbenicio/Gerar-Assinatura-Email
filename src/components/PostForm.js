@@ -111,7 +111,7 @@ export default function PostForm(props) {
                     </Col>
                 </Row>
             </div>
-            <Button color="dark" type="submit" outline>Gerar</Button>
+            <Button color="dark" type="submit" outline>Create</Button>
         </Form>
     
     );
