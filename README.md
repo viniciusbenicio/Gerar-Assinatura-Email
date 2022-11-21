@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+#  Utilize uma assinatura Profissional no seu E-mail pessoal.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Projeto utilizando React que estou aprendendo e em busca de Oportunidades como Desevolvedor Front End React [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Entenda o que é aplicação. 
 
-In the project directory, you can run:
+A criação dessa aplicação Gerar Assinatura de E-mail, foi uma ideia que tive para que facilite para que a gente possa tornar nossos e-mails pessoais mais profissional. Já imaginou causar uma impressão melhor a uma empresa que pretende te recrutar, você criando assinatura com simples formulário preenchendo uma imagem com os dados que deseja. 
 
-### `npm start`
+Quando você responder alguma empresa ou algum contato com essa sua assinatura irá conter informações super importante que facilite o contato com você e evita que você esqueça de por alguma informação para que tenha acesso ao seu número de telefone/celular e também podendo ter uma URL de portfolio ou site pessoal e até mesmo seu Github.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/63131764/203173019-463b6795-a441-4c65-b6c4-2db4bbb87a43.png)
 
-### `npm test`
+### Utilizando no Google E-mail.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/63131764/203172824-2b03839a-233a-4469-a0dd-e37369e0515b.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Logo Do Palmeiras?
+ * Imagem meramente ilustrativa utilizada apenas para criar assinatura de e-mail em testes.
+ 
+ ## Versão 1.0 [Lançado] 
+  * Já é possível prencher o Formulário e gerar assinatura 
+  
+  ## Versão 2.0 [Em Desenvolvimento] 
+  * Será possível fazer o Download da assinatura.
+  * Será possível importar csv ou txt para criar diversas assinatura de uma vez.
+  * Será possível fazer upload de uma URL ou do seu computador da logo para sua assinatura de E-mail.
