@@ -9,11 +9,11 @@ A criação dessa aplicação Gerar Assinatura de E-mail, foi uma ideia que tive
 Quando você responder alguma empresa ou algum contato com essa sua assinatura irá conter informações super importante que facilite o contato com você e evita que você esqueça de por alguma informação para que tenha acesso ao seu número de telefone/celular e também podendo ter uma URL de portfolio ou site pessoal e até mesmo seu Github.
 
 
-![image](https://user-images.githubusercontent.com/63131764/203167988-f6e866a2-accd-4aff-a3df-ad9e68ad214d.png)
+![image](https://user-images.githubusercontent.com/63131764/203173019-463b6795-a441-4c65-b6c4-2db4bbb87a43.png)
 
 ### Utilizando no Google E-mail.
 
-![image](https://user-images.githubusercontent.com/63131764/203168973-dea307ad-ce5e-4a6d-9d4e-0636f68584e1.png)
+![image](https://user-images.githubusercontent.com/63131764/203172824-2b03839a-233a-4469-a0dd-e37369e0515b.png)
 
 
 ## Logo Do Palmeiras?
