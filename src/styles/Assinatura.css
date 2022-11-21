@@ -82,6 +82,16 @@
     top: 80px;
 }
 
+span{
+    color: var(--main-color);
+    font-family: var(--main-font);
+    position: absolute;
+    font-size: var(--main-size-subTitulo);
+    font-weight: var(--main-weight);
+    left: 250px;
+    top: 115px;
+}
+
 
 img{
     position: absolute;

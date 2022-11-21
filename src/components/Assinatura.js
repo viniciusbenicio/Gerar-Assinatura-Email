@@ -36,7 +36,7 @@ export default function Assinatura(props){
                  <h4>{assinaturas.contactCel}</h4>
                  <h5>{assinaturas.email}</h5>
                  <h6>{assinaturas.conf}</h6>
-                 <h7>{assinaturas.website}</h7>
+                 <span>{assinaturas.website}</span>
                 </footer>
                 </div>
                 </article>
