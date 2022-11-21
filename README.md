@@ -5,7 +5,7 @@ O Projeto utilizando React que estou aprendendo e em busca de Oportunidades como
 ## Entenda o que é aplicação. 
 
 A criação dessa aplicação Gerar Assinatura de E-mail, foi uma ideia que tive para que facilite para que a gente possa tornar nossos e-mails pessoais mais profissional. 
-Já imaginou causar uma impressão melhor a uma empresa que pretende te recrutar, você criando assinatura com simples formulário prenchendo um template de E-mail.
+Já imaginou causar uma impressão melhor a uma empresa que pretende te recrutar, você criando assinatura com simples formulário preenchendo um template de E-mail.
 
 Quando você responder alguma empresa ou algum contato com essa sua assinatura irá conter informações super importante que você já possa facilitar o contato com você 
 e que evite que você esqueça de por alguma informação para que tenha acesso ao seu número de telefone/celular e também podendo ter uma URL de portfolio ou site pessoal e até mesmo seu Github.
