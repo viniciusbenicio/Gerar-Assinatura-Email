@@ -22,7 +22,13 @@ Quando você responder alguma empresa ou algum contato com essa sua assinatura i
  ## Versão 1.0 [Lançado] 
   * Já é possível prencher o Formulário e gerar assinatura 
   
-  ## Versão 2.0 [Em Desenvolvimento] 
+ ## Versão 2.0
+  * Refatorando Aplicação Interface
+  * FireBase para Autenticação
+  
+  
+  
+  ## Versão 3.0 [Em Desenvolvimento] 
   * Será possível fazer o Download da assinatura.
   * Será possível importar csv ou txt para criar diversas assinatura de uma vez.
   * Será possível fazer upload de uma URL ou do seu computador da logo para sua assinatura de E-mail.
