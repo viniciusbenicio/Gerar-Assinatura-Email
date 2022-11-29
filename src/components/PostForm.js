@@ -16,14 +16,6 @@ export default function PostForm(props) {
     function handleSubmit(event) {
         event.preventDefault();
         props.onSubmit({ userName, jobRole, email, contactTel, contactCel, conf, website });
-
-        // setUserName('');
-        // setjobRole('');
-        // setcontactTel('');
-        // setcontactCel('');
-        // setEmail('');
-        // setConf('');
-        // setWebSite('');
     }
 
     return (
@@ -113,6 +105,6 @@ export default function PostForm(props) {
             </div>
             <Button color="dark" type="submit" outline>Create</Button>
         </Form>
-    
+
     );
 }
